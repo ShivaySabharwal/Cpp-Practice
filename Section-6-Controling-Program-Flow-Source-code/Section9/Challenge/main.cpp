@@ -1,4 +1,4 @@
-// Section 9
+// Section 6
 // Challenge
 /*    
     This challenge is about using a collection (list) of integers and allowing the user
@@ -58,8 +58,6 @@ Additional functionality if you wish to extend this program.
 - clearing out the list (make it empty again) (Hint: the vector class has a .clear() method)
 - don't allow duplicate entries
 - come up with your own ideas!
-
-Good luck!
 
 */
 #include <iostream>

@@ -1,4 +1,4 @@
-// Section 9
+// Section 6
 // Do-while
 // Simple Menu Example
 #include <iostream>

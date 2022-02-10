@@ -1,4 +1,4 @@
-// Section 9
+// Section 6
 // Nested Loops - Histogram
 #include <iostream>
 #include <vector>

@@ -1,4 +1,4 @@
-// Section 9
+// Section 6
 // If-Else Statement
 #include <iostream>
 using namespace std;
