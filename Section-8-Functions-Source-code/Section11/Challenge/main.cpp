@@ -1,8 +1,7 @@
-// Section 11
+// Section 8
 // Challenge 
 /*
-     Recall the challenge from Section 9 below.
-    Your challenge for section 11 is to modularize your solution to the Section 9
+    Your challenge for section 8 is to modularize your solution to the Section 6
     challenge by refactoring your solution so that it uses uses functions.
     
     You decide how to modularize the program.

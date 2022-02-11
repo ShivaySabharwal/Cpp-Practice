@@ -1,4 +1,4 @@
-// Section 11
+// Section 8
 // Arrays and functions
 #include <iostream>
 
