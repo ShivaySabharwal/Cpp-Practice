@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     
-    char  str[] {"1234'5sddd'fdffg\n\t&^%23**~Frank Mary~     @!()-+=%^?<>;:"};
+    char str[] {"1234'5sddd'fdffg\n\t&^%23**~Shivay Sabharwal~     @!()-+=%^?<>;:"};
     int num_letters {};
     int num_digits {};
     int num_whitespace {};
