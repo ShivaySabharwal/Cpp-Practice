@@ -1,4 +1,4 @@
-// Section 12
+// Section 9
 // Challenge
 
 /* Write a C++ function named apply_all that expects two arrays of integers and their sizes and

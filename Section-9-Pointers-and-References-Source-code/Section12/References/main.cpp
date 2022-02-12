@@ -1,6 +1,5 @@
-// Section 12
+// Section 9
 // References
-// Please see the section 11 examples for references as function paramters
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,4 +1,4 @@
-// Section 12
+// Section 9
 // Passing Pointers 2
 #include <iostream>
 #include <string>
