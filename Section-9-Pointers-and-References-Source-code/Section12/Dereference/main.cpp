@@ -46,6 +46,8 @@ int main()
 
     cout << "First stooge: " << (*vector_ptr).at(0) << endl; // Larry
 
+    cout << (*vector_ptr).size() << endl;
+
     cout << "Stooges: ";
     for (auto stooge : *vector_ptr)
         cout << stooge << " ";
