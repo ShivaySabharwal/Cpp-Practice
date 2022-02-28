@@ -1,4 +1,4 @@
-// Section 14
+// Section 11
 // Challenge - Solution 2
 // Non-Member methods
 #include <iostream>
