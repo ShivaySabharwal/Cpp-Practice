@@ -1,5 +1,4 @@
-#ifndef _FRIEND_CLASS_H_
-#define _FRIEND_CLASS_H_
+#pragma once
 #include <string>
 #include "Player.h"
 
@@ -10,4 +9,4 @@ public:
     void display_player(Player &p);
 };
 
-#endif // _FRIEND_CLASS_H_
+

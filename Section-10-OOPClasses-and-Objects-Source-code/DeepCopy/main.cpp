@@ -1,4 +1,4 @@
-// Section 13
+// Section 10
 // Copy Constructor - Deep Copy
 #include <iostream>
 
@@ -25,6 +25,7 @@ Deep::Deep(int d) {
 
 Deep::Deep(const Deep &source)
     : Deep {*source.data} {
+    // OR We can do the following:-
     // data = new int; // allocating storage
     // *data = *source.data;
     cout << "Copy constructor  - deep copy" << endl;

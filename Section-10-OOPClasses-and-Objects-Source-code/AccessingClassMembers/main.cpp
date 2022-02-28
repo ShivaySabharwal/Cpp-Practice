@@ -1,4 +1,4 @@
-// Section 13
+// Section 10
 // Accessing Class Members
 #include <iostream>
 #include <string>

@@ -1,5 +1,4 @@
-#ifndef _PLAYER_H_
-#define _PLAYER_H_
+#pragma once
 #include <string>
 
 #include "Other_class.h"
@@ -27,5 +26,3 @@ public:
     static int get_num_players();
     
 };
-
-#endif // _PLAYER_H_
