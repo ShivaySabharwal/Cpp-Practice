@@ -1,4 +1,4 @@
-// Section 14
+// Section 11
 // Overloading operators as member methods
 #include <iostream>
 #include "Mystring.h"
