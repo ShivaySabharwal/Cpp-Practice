@@ -1,4 +1,7 @@
 {
-    "C_Cpp.errorSquiggles": "Enabled",
-    "cmake.configureOnOpen": false
+    "C_Cpp.errorSquiggles": "Disabled",
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }

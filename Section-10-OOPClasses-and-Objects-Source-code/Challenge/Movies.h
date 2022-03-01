@@ -1,5 +1,5 @@
 /******************************************************************
- * Section 13 Challenge
+ * Section 10 Challenge
  * Movies.h
  * 
  * Models a collection of Movie as a std::vector
@@ -7,8 +7,7 @@
  *
  * ***************************************************************/
 
-#ifndef _MOVIES_H_
-#define _MOVIES_H_
+#pragma once
 #include <vector>
 #include <string>
 #include "Movie.h"
@@ -56,4 +55,4 @@ public:
     void display() const;
 };
 
-#endif // _MOVIES_H_
+

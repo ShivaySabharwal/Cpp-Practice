@@ -1,5 +1,5 @@
 /******************************************************************
- * Section 13 Challenge
+ * Section 10 Challenge
  * Movie.h
  * 
  * Models a Movie with the following atttributes
@@ -8,8 +8,7 @@
  * std::string rating - G, PG, PG-13, R
  * int watched - the number of times you've watched the movie
  * ***************************************************************/
-#ifndef _MOVIE_H_
-#define _MOVIE_H_
+#pragma once
 
 #include <string>
 
@@ -47,5 +46,3 @@ public:
     // simply displays the movie information ex.) Big, PG-13, 2
     void display() const;
 };
-
-#endif // _MOVIE_H_

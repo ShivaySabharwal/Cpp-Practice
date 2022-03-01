@@ -1,5 +1,5 @@
 /******************************************************************
- * Section 13 Challenge
+ * Section 10 Challenge
  * Movie.cpp
  * 
  * Models a Movie with the following atttributes
@@ -10,25 +10,30 @@
  * ***************************************************************/
 #include <iostream>
 #include "Movie.h"
-
+using namespace std;
 // Implemention of the construcor
 
-Movie::Movie(std::string name, std::string rating, int watched) 
-    : name(name), rating(rating), watched(watched)  {
+Movie::Movie(string name, string rating, int watched)
+    : name{name}, rating{rating}, watched{watched}{
+
 }
 
 //Implemention of the copy constructor
-Movie::Movie(const Movie &source) 
-    : Movie{source.name, source.rating, source.watched} {
+
+Movie::Movie(const Movie &source)
+    : Movie{source.name, source.rating, source.watched}{
+
 }
 
 // Implementation of the destructor
-Movie::~Movie() {
+
+Movie::~Movie(){
+    cout << "Destructor Called for Movie.";
 }
 
 // Implementation of the display method
 // should just insert the movie attributes to cout
 
 void Movie::display() const {
-    std::cout << name << ", " << rating <<  ", " << watched  <<   std::endl;
+    cout << name << ", " << rating << ", " << watched << endl;
 }

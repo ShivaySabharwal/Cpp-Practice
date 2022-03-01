@@ -1,5 +1,5 @@
 /******************************************************************
- * Section 13 Challenge
+ * Section 10 Challenge
  * Movies.h
  * 
  * Models a collection of Movies as a std::vector
@@ -7,17 +7,20 @@
  * ***************************************************************/
 #include <iostream>
 #include "Movies.h"
+using namespace std;
 
  /*************************************************************************
     Movies no-args constructor
 **************************************************************************/
 Movies::Movies() {
+
 }
 
 /*************************************************************************
     Movies destructor
 **************************************************************************/
 Movies::~Movies() {
+    cout << "Destructor called for Movies Vector." << endl;
 }
 
   /*************************************************************************
@@ -30,10 +33,11 @@ Movies::~Movies() {
     Otherwise, create a movie object from the provided information
     and add that movie object to the movies vector and return true
     *********************************************************************/
-bool Movies::add_movie(std::string name, std::string rating, int watched) {
-    for (const Movie &movie: movies) {
-        if (movie.get_name() == name)
+bool Movies::add_movie(string name, string rating, int watched) {
+    for (const Movie &movie: movies){
+        if(movie.get_name() == name){
             return false;
+        } 
     }
     Movie temp {name, rating, watched};
     movies.push_back(temp);
@@ -51,9 +55,9 @@ bool Movies::add_movie(std::string name, std::string rating, int watched) {
     Otherwise, return false since then no movies object with the movie name
     provided exists to increment
     *********************************************************************/
-bool Movies::increment_watched(std::string name) {
-    for (Movie &movie: movies){
-        if (movie.get_name() == name){
+bool Movies::increment_watched(string name) {
+    for(Movie &movie: movies){
+        if(movie.get_name() == name){
             movie.increment_watched();
             return true;
         }
@@ -68,13 +72,11 @@ bool Movies::increment_watched(std::string name) {
     for each movie call the movie.display method so the movie
     object displays itself
     *********************************************************************/
-void Movies::display() const {
-    if (movies.size() == 0) {
-        std::cout << "Sorry, no movies to display!" << std::endl;
-    } else{
-        std::cout << "\n==================================" << std::endl;
-        for (auto movie: movies)
+void Movies::display() const{
+    if(movies.size() == 0){
+        cout << "Sorry!, no movies to display." << endl;
+    } else {
+        for (const Movie &movie: movies)
             movie.display();
-        std::cout << "\n===================================" << std::endl;
     }
 }
