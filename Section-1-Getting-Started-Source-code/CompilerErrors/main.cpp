@@ -1,8 +1,7 @@
 #include <iostream>
 
-int main() 
+int main()
 {
-    std::cout << ("Hello world" / 125)  << std::endl;
+    std::cout << ("Hello world" / 125) << std::endl;
     return 0;
-} 
-
+}
