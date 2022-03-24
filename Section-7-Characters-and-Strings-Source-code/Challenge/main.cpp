@@ -13,7 +13,7 @@ Write a program thats ask a user to enter a secret message.
 Encrypt this message using the substitution cipher and display the encrypted message.
 Then decryped the encrypted message back to the original message.
 
-You may use the 2 strings below for  your subsitition.
+You may use the 2 strings below for your subsitition.
 For example, to encrypt you can replace the character at position n in alphabet
 with the character at position n in key.
 
