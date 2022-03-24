@@ -53,7 +53,3 @@ void Mystring::display() const {
 // getters
  int Mystring::get_length() const { return strlen(str); }
  const char *Mystring::get_str() const { return str; }
-
-
-
-
