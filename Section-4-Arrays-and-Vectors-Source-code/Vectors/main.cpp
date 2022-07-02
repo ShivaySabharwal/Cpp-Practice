@@ -15,10 +15,10 @@ int main() {
     cout << vowels[0] << endl;
     cout << vowels[4] << endl;
     
-//    vector <int> test_scores (3);  // 3 elements all initialized to zero
+//   vector <int> test_scores (3);  // 3 elements all initialized to zero
 //   vector <int> test_scores (3, 100); // 3 elements all initialized to 100
     
-      vector <int> test_scores {100, 98, 89};
+    vector <int> test_scores {100, 98, 89};
     
     cout << "\nTest scores using array syntax:" << endl;
     cout << test_scores[0] << endl;
@@ -93,4 +93,3 @@ int main() {
     cout << endl;
     return 0;
 }
-

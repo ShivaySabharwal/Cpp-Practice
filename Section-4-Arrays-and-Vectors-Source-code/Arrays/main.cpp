@@ -11,7 +11,7 @@ int main()
     char vowels[]{'a', 'e', 'i', 'o', 'u'};
     cout << "\nThe first vowel is: " << vowels[0] << endl;
     cout << "The last vowel is: " << vowels[4] << endl;
-
+    cout << "The size of vowels array is: " << sizeof(vowels) << endl;
     //    cin >> vowels[5];  out of bounds - don't do this!!
 
     double hi_temps[]{90.1, 89.8, 77.5, 81.6};
@@ -21,7 +21,6 @@ int main()
                          // we'll talk about assignment statement in an upcoming section
 
     cout << "The first high temperature is now: " << hi_temps[0] << endl;
-    //
 
     int test_scores[]{100, 90, 80, 70, 60};
 
