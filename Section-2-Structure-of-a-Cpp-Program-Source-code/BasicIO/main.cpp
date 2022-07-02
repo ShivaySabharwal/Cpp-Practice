@@ -14,7 +14,7 @@ int main()
     cout << "World" << endl;
 
     cout << "Hello world!" << endl;
-    cout << "Hello"
+    cout << "Hello" << endl
          << " world!" << endl;
     cout << "Hello"
          << " world!\n";
