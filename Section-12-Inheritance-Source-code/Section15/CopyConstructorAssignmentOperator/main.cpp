@@ -1,4 +1,4 @@
-// Section 15
+// Section 12
 // Copy constructor and operator=
 #include <iostream>
 
