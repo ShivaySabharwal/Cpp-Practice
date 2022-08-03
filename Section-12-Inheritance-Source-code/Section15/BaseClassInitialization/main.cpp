@@ -1,4 +1,4 @@
-// Section 15
+// Section 12
 // Base class initialization
 #include <iostream>
 
