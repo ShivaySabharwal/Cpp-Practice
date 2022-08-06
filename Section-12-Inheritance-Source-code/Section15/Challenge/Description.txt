@@ -1,4 +1,4 @@
-// Section 15 Challenge
+// Section 12 Challenge
 // Inheritance
 
 You are provided with a simple Account class hierarchy that contains
