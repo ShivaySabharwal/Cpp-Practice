@@ -101,11 +101,3 @@ void Mystring::display() const {
  
  // string getter
  const char *Mystring::get_str() const { return str; }
-
-
-
-
-
-
-
-

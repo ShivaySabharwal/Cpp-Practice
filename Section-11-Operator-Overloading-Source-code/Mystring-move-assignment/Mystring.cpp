@@ -50,7 +50,6 @@ Mystring::~Mystring() {
  // Copy assignment
 Mystring &Mystring::operator=(const Mystring &rhs) {
     std::cout << "Using copy assignment" << std::endl;
-
     if (this == &rhs) 
         return *this;
     delete [] str;
@@ -71,9 +70,6 @@ Mystring &Mystring::operator=(Mystring &&rhs) {
     
 }
 
-
-
-
 // Display method
 void Mystring::display() const {
     std::cout << str << " : " << get_length() << std::endl;
@@ -82,7 +78,3 @@ void Mystring::display() const {
  // getters
  int Mystring::get_length() const { return strlen(str); }
  const char *Mystring::get_str() const { return str; }
-
-
-
-

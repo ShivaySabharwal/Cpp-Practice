@@ -103,9 +103,3 @@ Mystring operator+(const Mystring &lhs, const Mystring &rhs) {
     delete [] buff;
     return temp;
 }
-
-
-
-
-
-

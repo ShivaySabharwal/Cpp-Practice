@@ -34,16 +34,19 @@ Mystring::~Mystring() {
 }
 
 // Copy assignment
-Mystring &Mystring::operator=(const Mystring &rhs) {
-    std::cout << "Copy assignment" << std::endl;
-    if (this == &rhs)
+Mystring &Mystring::operator=(const Mystring &rhs){
+    
+    cout << "Copy Assignment being called.";
+
+    if(this == &rhs){
         return *this;
-    delete [] this->str;
+    }
+    
+    delete[] this->str;
     str = new char[std::strlen(rhs.str) + 1];
     std::strcpy(this->str, rhs.str);
     return *this;
 }
-
 
 // Display method
 void Mystring::display() const {

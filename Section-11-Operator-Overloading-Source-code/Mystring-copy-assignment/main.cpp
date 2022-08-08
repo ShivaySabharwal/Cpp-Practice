@@ -45,8 +45,6 @@ int main() {
     cout << "=== Loop 3 ================" << endl;
     for (const Mystring &s: stooges_vec) 
         s.display();                                     // Changed
-                                                            // Changed
-                                                            // Changed
     
     return 0;
 }

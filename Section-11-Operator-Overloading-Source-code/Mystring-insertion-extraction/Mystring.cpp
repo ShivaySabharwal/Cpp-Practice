@@ -89,4 +89,3 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
     delete [] buff;
     return in;
 }
-
