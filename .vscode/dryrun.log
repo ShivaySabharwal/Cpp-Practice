@@ -1,4 +1,6 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-'make.exe' is not recognized as an internal or external command,
-operable program or batch file.
+make: Entering directory 'd:/LEARNING/2_PROGRAMMING/LANGUAGES/CPP/CPP_Practice'
+make: Leaving directory 'd:/LEARNING/2_PROGRAMMING/LANGUAGES/CPP/CPP_Practice'
+ 
+make: *** No targets specified and no makefile found.  Stop.
 
