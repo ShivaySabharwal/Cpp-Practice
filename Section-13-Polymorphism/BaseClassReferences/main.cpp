@@ -1,4 +1,4 @@
-// Section 16
+// Section 13
 // Using Base class references
 
 #include <iostream>
@@ -64,4 +64,3 @@ int main() {
 
     return 0;
 }
-
