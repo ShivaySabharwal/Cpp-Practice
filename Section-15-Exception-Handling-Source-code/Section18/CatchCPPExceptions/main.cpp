@@ -1,4 +1,4 @@
-// Section 18
+// Section 15
 // catching std::exception s
 #include <iostream>
 #include <string>
