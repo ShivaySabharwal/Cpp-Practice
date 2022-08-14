@@ -1,4 +1,4 @@
-// Section 18
+// Section 15
 // Miles per Gallon - Function - Rethrow
 #include <iostream>
 #include <vector>
