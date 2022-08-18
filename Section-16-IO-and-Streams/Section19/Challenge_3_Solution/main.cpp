@@ -1,4 +1,4 @@
-// Section 19
+// Section 16
 // Challenge 3 - Solution
 // Word counter
 #include <iostream>
