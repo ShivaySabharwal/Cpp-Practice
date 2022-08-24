@@ -10,8 +10,6 @@
          comment
 */
 
-// Using a modified version Dijkstra's algorithm to improve space efficiency
-
 int main()
  {    
     int favorite_number;  // this is where my favorite number is stored
