@@ -1,5 +1,4 @@
-// Section 3
-// Primitive Types
+// Section 3 Primitive Types
 
 #include <iostream>
 using namespace std;
