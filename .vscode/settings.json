@@ -2,6 +2,8 @@
     "C_Cpp.errorSquiggles": "Disabled",
     "cmake.configureOnOpen": false,
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp"
     }
 }

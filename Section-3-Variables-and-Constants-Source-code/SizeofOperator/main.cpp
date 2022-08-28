@@ -3,8 +3,8 @@
 
 #include <iostream>
 #include <climits> // make sure you include climits for integer types
-                   // Similar information for floating point numbers
-                   // is contained in <cfloat>
+// Similar information for floating point numbers
+// is contained in <cfloat>
 
 using namespace std;
 

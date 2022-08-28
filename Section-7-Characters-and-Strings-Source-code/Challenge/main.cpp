@@ -11,7 +11,7 @@ For example, every 'a' get replaced with an 'X', and every 'b' gets replaced wit
 Write a program thats ask a user to enter a secret message.
 
 Encrypt this message using the substitution cipher and display the encrypted message.
-Then decryped the encrypted message back to the original message.
+Then decrypt the encrypted message back to the original message.
 
 You may use the 2 strings below for your subsitition.
 For example, to encrypt you can replace the character at position n in alphabet
@@ -66,17 +66,17 @@ int main()
     string decrypted_message{};
     cout << "Decrypting Message..." << endl;
 
-    for (char c : encrypted_message)
+    for (char d : encrypted_message)
     {
-        size_t position = key.find(c);
-        if (position != string::npos)
+        size_t position1 = key.find(d);
+        if (position1 != string::npos)
         {
-            char dec_char{alphabet.at(position)};
-            decrypted_message += dec_char;
+            char de_char = alphabet.at(position1);
+            decrypted_message += de_char;
         }
         else
         {
-            decrypted_message += c;
+            decrypted_message += d;
         }
     }
 
