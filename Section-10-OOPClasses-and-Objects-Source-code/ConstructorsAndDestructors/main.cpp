@@ -48,7 +48,7 @@ int main() {
     }
     
     Player *enemy = new Player;
-    enemy->set_name("Enemy");
+    enemy->set_name("Enemy"); //*(enemy).set_name("Enemy");
     
     Player *level_boss = new Player("Level Boss", 1000, 300);
     level_boss->set_name("Level Boss");
@@ -58,4 +58,3 @@ int main() {
     
     return 0;
 }
-
