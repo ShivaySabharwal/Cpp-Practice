@@ -22,6 +22,5 @@ int main() {
     double_data(int_ptro);
     cout << "Value: " << value << endl;
 
-    cout  << endl;
     return 0;
 }

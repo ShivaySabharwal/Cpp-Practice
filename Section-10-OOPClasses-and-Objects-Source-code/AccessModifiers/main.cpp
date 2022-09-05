@@ -24,4 +24,3 @@ int main() {
   frank.talk("Hello there");
     return 0;
 }
-

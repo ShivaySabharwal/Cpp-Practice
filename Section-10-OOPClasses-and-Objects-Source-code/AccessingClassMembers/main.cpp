@@ -50,9 +50,6 @@ int main() {
     enemy->xp = 15;
     
     enemy->talk("I will destroy you!");
-    
-
 
     return 0;
 }
-

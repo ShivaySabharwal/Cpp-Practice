@@ -1,8 +1,6 @@
 // Section 9
 // Passing Pointers 2
 #include <iostream>
-#include <string>
-#include <vector>
 
 using namespace std;
 
@@ -27,4 +25,3 @@ int main() {
     cout  << endl;
     return 0;
 }
-
