@@ -30,7 +30,7 @@ public:
 int main()
 {
     //   Base b;
-    //    Base b{100};
+    //   Base b{100};
     //   Derived d;
     Derived d{1000};
 
